@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'PROJECT'
+compiling chassis_power_control.c...
+..\application\chassis_power_control.c(102): warning:  #175-D: subscript out of range
+                                  fabs(ChassisPowerLMT.ChassisData->motor_chassis[4].speed);
+..\application\chassis_power_control.c: 1 warning, 0 errors
+linking...
+Program Size: Code=105220 RO-data=13360 RW-data=1132 ZI-data=55476  
+FromELF: creating hex file...
+".\OBJ\PROJECT.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:04
